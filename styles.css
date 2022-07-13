@@ -16,3 +16,48 @@
     position: relative;
     top: 205px;
 }
+
+#hero-content h1{
+    font-family: "Raleway", sans-serif;
+    color: white;
+    font-size: 50px;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
+#hero-content p{
+    color: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin: 33px;
+}
+#hero-content a{
+    background-color: rgb(255, 251, 0);
+    text-decoration: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+}
+#hero-content a:hover{
+    background-color: rgb(255, 228, 0);
+}
+#dest{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.dest{
+    margin: 0px 20px;
+}
+.dest img{
+    height: 200px;
+    width: 100%;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+}
