@@ -1,11 +1,12 @@
 body{
     background: linear-gradient(30deg, rgb(77,77,77), rgb(58,58,58));
+    color: rgb(68, 68, 68);
 }
 header{
     position: static;
 }
 main ul{
-    width: 800px;
+    width: 1200px;
     margin: 0 auto;
 }
 
@@ -15,6 +16,7 @@ main li{
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     overflow: hidden;
+    width: 500px;
 }
 main li img{
     width: 300px;
@@ -23,4 +25,19 @@ main li img{
 }
 .content{
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.actions{
+    text-align: right;
+}
+.actions a{
+    color: rgb(22, 221, 228);
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 5px;
+}
+.actions a:hover{
+    background-color: rgb(235, 253, 255);
 }
