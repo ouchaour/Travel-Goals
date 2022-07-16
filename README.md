@@ -5,4 +5,4 @@ and a nvigation bar at the header that contains some celebre cities in the world
 and much more ...
 
 
-** I already hosted the web site so this is the link to explore more:  https://travel-morroco.netlify.app/
+** I already hosted the web site so this is the link to explore more:  https://travel-morroco.netlify.app/    **
