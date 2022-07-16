@@ -2,26 +2,45 @@ body{
     background: linear-gradient(30deg, rgb(77,77,77), rgb(58,58,58));
     color: rgb(68, 68, 68);
 }
+#logo a {
+    color: rgb(183, 230, 235);
+}
+header a{
+    color: rgb(183, 230, 235);
+}
 header{
     position: static;
-}
-main ul{
-    width: 1000px;
-    margin: 0 auto;
+    margin-bottom: 30px;
 }
 
+header nav a:hover{
+    background-color:rgb(183, 230, 235);
+    color: rgb(59, 59, 59);
+}
+main ul{
+    width: 1200px;
+    margin: 0 auto 45px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+}
+li:nth-of-type(3){
+    grid-column: 1/span 2;
+}
 main li{
     display: flex;
     background-color: white;
     box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
     border-radius: 6px;
     overflow: hidden;
-    width: 500px;
 }
 main li img{
     width: 300px;
     height: 280px;
     object-fit: cover;
+}
+.content h2 {
+    margin: 0px;
 }
 .content{
     padding: 25px;
